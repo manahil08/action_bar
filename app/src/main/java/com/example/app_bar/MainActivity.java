@@ -31,7 +31,7 @@ private Toolbar toolbar;
 
        right.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+           
                 Toast.makeText(MainActivity.this,"you clicked share button",Toast.LENGTH_SHORT).show();
 
                 Intent sendd=new Intent();
