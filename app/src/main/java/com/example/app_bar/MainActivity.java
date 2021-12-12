@@ -27,6 +27,8 @@ private Toolbar toolbar;
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this,"you clicked menu",Toast.LENGTH_SHORT).show();
             }
+
+            
         });
 
        right.setOnClickListener(new View.OnClickListener() {
@@ -42,7 +44,7 @@ private Toolbar toolbar;
                 sendd.setType("text/plain");
                 Intent sharee=Intent.createChooser(sendd,null);
 
-                
+
                 startActivity(sharee);
             }
         });
