@@ -31,7 +31,7 @@ private Toolbar toolbar;
 
        right.setOnClickListener(new View.OnClickListener() {
             @Override
-           git remote add origin https://github.com/manahil08/action_bar.git
+            public void onClick(View v) {
                 Toast.makeText(MainActivity.this,"you clicked share button",Toast.LENGTH_SHORT).show();
 
                 Intent sendd=new Intent();
@@ -42,6 +42,6 @@ private Toolbar toolbar;
                 startActivity(sharee);
             }
         });
-      
+       txt.setText("My App bar");
     }
 }
