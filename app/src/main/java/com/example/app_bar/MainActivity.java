@@ -19,10 +19,7 @@ private Toolbar toolbar;
         toolbar=findViewById(R.id.myToolBar);
         setSupportActionBar(toolbar);
         ImageView left=findViewById(R.id.left_icon);
-        ImageView right=findViewById(R.id.right_icon);
-        TextView txt=findViewById(R.id.toolbar);
-
-        left.setOnClickListener(new View.OnClickListener() {
+ 
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this,"you clicked menu",Toast.LENGTH_SHORT).show();
